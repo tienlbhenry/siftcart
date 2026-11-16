@@ -1,0 +1,25 @@
+{
+  "shop_name": "TechGear VN",
+  "currency": "VND",
+  "facets": [
+    {
+      "key": "brand",
+      "type": "enum",
+      "description": "Thương hiệu laptop",
+      "values": ["Apple", "Dell", "Asus", "Lenovo"],
+      "filterable": true
+    },
+    {
+      "key": "ram_gb",
+      "type": "number",
+      "description": "Dung lượng RAM tính bằng GB (ví dụ 8, 16, 32)",
+      "filterable": true
+    },
+    {
+      "key": "weight_kg",
+      "type": "number",
+      "description": "Trọng lượng máy tính bằng kg",
+      "filterable": true
+    }
+  ]
+}

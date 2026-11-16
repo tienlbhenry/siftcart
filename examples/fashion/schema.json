@@ -1,0 +1,26 @@
+{
+  "shop_name": "Saigon Streetwear",
+  "currency": "VND",
+  "webhook_url": "https://shop-a.example.com/webhooks/siftcart-live",
+  "facets": [
+    {
+      "key": "size",
+      "type": "enum",
+      "description": "Kích cỡ quần áo (ví dụ S, M, L, XL)",
+      "values": ["S", "M", "L", "XL"],
+      "filterable": true
+    },
+    {
+      "key": "waterproof",
+      "type": "bool",
+      "description": "Sản phẩm có khả năng chống nước / đi mưa hay không",
+      "filterable": true
+    },
+    {
+      "key": "material",
+      "type": "text",
+      "description": "Chất liệu vải (cotton, polyester, linen...)",
+      "filterable": false
+    }
+  ]
+}
