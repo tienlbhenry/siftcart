@@ -51,6 +51,8 @@ type ToolCall struct {
 	ID            string `json:"id"`
 	Name          string `json:"name"`
 	ArgumentsJSON string `json:"arguments_json"`
+	// ThoughtSignature is opaque Gemini metadata to replay with the same tool call.
+	ThoughtSignature string `json:"thought_signature,omitempty"`
 }
 
 type ResponseFormatType string
